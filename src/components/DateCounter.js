@@ -1,5 +1,4 @@
-import { type } from '@testing-library/user-event/dist/type';
-import { useState, useReducer } from 'react';
+import { useReducer } from 'react';
 const initalState = { count: 0, step: 1 };
 
 function reducer(state, action) {
